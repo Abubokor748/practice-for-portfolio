@@ -8,6 +8,11 @@ nav {
     align-items: center;
     margin: 50px 200px;
 }
+/* .nav-title{
+    width: 121px;
+    height: 61px;
+    font-size: 45;
+} */
 nav ul{
     display: flex;
     align-items: center;
@@ -31,4 +36,21 @@ nav a {
     border: none;
     font-weight: bold;
     padding: 18px 36px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 38px;    
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-content{
+    max-width: 550px;
+}
+.banner-img{
+    width: 504px;
+   height: 600px;
 }
