@@ -1,18 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+
 /* navigation bar */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 200px;
+    margin: 85px 200px;
 }
-/* .nav-title{
-    width: 121px;
-    height: 61px;
-    font-size: 45;
-} */
 nav ul{
     display: flex;
     align-items: center;
@@ -30,15 +26,15 @@ nav a {
     color: #474747;
 }
 .header{
-    
-}
-.header{
     background-image: url(../images/header_bg.png), url(../images/developer.png); 
     background-position: bottom right, top left;
     background-repeat: no-repeat;
 }
+.second-bg{
+    background-color: #FFF8F3;
+}
 .btn-bg{
-    background-color: #FD6E0A;
+    background-color: #fd6f0a;
     color: #fff;
     border-radius: 5px;
     border: none;
@@ -62,4 +58,56 @@ nav a {
 .banner-img{
     width: 504px;
    height: 600px;
+}
+.about-title{
+    text-align: center;
+}
+.item-description{
+    font-weight: bolder;
+}
+.about-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+.item-title{
+    text-align: center;
+}
+.about-section{
+    padding: 130px 230px;
+    margin: 130px 160px;
+    text-align: center;
+
+    /* height: 1150px;
+    width: 550px;
+    text-align: center; */
+}
+.doing-title{
+    text-align: center;
+}
+.doing-description{
+    margin: 30px 350px;
+}
+.main-doing{
+    display: flex;
+    margin: 30px 230px 30px 230px;
+    gap: 30px;
+}
+.section-doing{
+    margin-top: 30px;
+}
+.boxes{
+    padding: 104px 30px 30px 30px;
+}
+.shadow{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 5);
+    border-radius: 5px;
+}
+.resume-title{
+    text-align: center;
+}
+.resume-col{
+    display: flex;
+    gap: 71px;
+    margin-right: 270px;
+    margin-left: 230px;
 }
